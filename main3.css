@@ -1,0 +1,101 @@
+main3{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+.carousel-container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center; /* Centering the carousel items */
+    align-items: center;
+    transition: transform 0.4s ease-in-out;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    flex: 0 0 250px; /* Fixing width for each card */
+    text-align: left;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 100px;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    color: #555;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.info-btn, .learn-btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.info-btn {
+    background-color: #f0f0f0;
+}
+
+.learn-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.learn-btn:hover {
+    background-color: #218838;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    z-index: 10; /* Make sure the buttons stay above the carousel */
+}
+
+.prev-btn {
+    left: 10px; /* Position the left arrow */
+}
+
+.next-btn {
+    right: 10px; /* Position the right arrow */
+}

@@ -1,0 +1,75 @@
+<!doctype>
+<head>
+	<style>
+	.welcome {
+	text-align: center;
+}
+.picture_title{
+	
+}
+.picture_title>img{
+	width:30%;
+	display:block;
+	margin:auto;
+}
+.title_1234{
+	text-align: center;
+	font-size:4vw;
+	color:red;
+}
+.main2{    
+	font-family: 'Arial', 'Times New Roman';    
+	margin: 0;    
+	padding: 0;    
+	text-align: center;   
+	border: 10px solid rgb(243, 232, 218);    
+	border-bottom:none; 
+}
+.main2 
+.header {   
+	margin-top: 20px;
+}
+.main2 
+.header img {   
+	width: 200px;   
+	height: 170px;
+}
+.main2 
+.header h1 {   
+	font-family: 'Times New Roman';   
+	font-weight: normal ;   
+	font-size: 60px;   
+	color: #333;
+}
+.main2 {
+	display: grid;    
+	grid-template-columns: 18% 18% 18% 18% 18%; 
+	gap: 10px;    padding: 10px;  
+	background: linear-gradient(to right, #a8e063, #56ab2f);	
+	justify-content:center;
+}
+.main2-card {  
+	background-color: white; 
+	border-radius: 20px;  
+	padding: 40px;   
+	text-align: center;  
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
+	transition: transform 0.2s;
+	width: 150px;
+}
+.main2-card:hover {   
+	transform: scale(1.05);
+}
+.icon { 
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+h3{  
+	margin: 30px 0;  
+	font-size: 18px;
+}
+p {  
+	color: black;  
+	font-size: 14px;
+}
+</style>
